@@ -1,0 +1,19 @@
+.box{
+  margin: 0 auto;
+  text-align: center;
+  border-color: blue;
+  border-spacing: inherit;
+}
+
+h3{
+  text-decoration-style: wavy;
+  color: gray;
+}
+h4{
+  color: red;
+  text-decoration-style: double;
+}
+
+img{
+  border-radius: 50%;
+}

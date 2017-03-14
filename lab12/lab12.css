@@ -1,0 +1,23 @@
+<style>
+    body {
+
+        background-color: lightblue;
+        border-style: dotted;
+        border-color: blue;
+        
+
+    }
+
+    ul {
+        list-style-type: none;
+        font-size: 25;
+
+    }
+
+    label {
+        background-color: #42f445;
+        font-weight: bold;
+        display: block;
+        width: 150px;
+    }
+</style>
