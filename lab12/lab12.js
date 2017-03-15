@@ -1,8 +1,13 @@
-var buy= angular.module('toDoList', []);
-buy.controller('myController', function($scope){
-  $scope.todo = ['Buy milk', 'Finish lab', 'Clean car', 'Water plants', 'Read book'];
-  console.log($scope.todo);
+var list = angular.module('List', []);
 
- $scope.addItem = function () {
-  $scope.todo.push($scope.stuff)};
+
+list.controller('myController', function($scope) {
+    $scope.items = ['Buy milk', 'Finish lab', 'Clean car', 'Water plants', 'Read book'];
+    console.log($scope.items);
+
+
+    $scope.addItem = function() {
+        $scope.items.push($scope.stuff);
+        $scope.stuff = '';
+    };
 });
